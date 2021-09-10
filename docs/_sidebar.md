@@ -1,3 +1,4 @@
 * [EZCAD2相关工单问题](EZCAD2)
 * [EZCAD3相关工单问题](EZCAD3)
 * [精简卡相关工单问题](精简卡相关问题)
+* [EZCAD2_LITE相关工单问题](EZCAD2_LITE相关问题)
