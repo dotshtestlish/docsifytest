@@ -7,6 +7,8 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/docsify-toc@1.0.0/dist/toc.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 </head>
 
 
@@ -14,20 +16,29 @@
 
 <body>
   <div id="app"></div>
+
+
   <script>
     window.$docsify = {
-      name: '',
+      name: '金橙子 帮助中心',
       repo: '',    
       loadSidebar: '_sidebar.md', 
-      subMaxLevel: 3      
+      toc: {
+    scope: '.markdown-section',
+    headings: 'h6',
+    title: 'Tabl2112e of Contents',
+  },
+      subMaxLevel: 6     
     }
   </script>
   <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
- 
-  
+  <script src="//cdn.jsdelivr.net/docsify-toc@1.0.0/dist/toc.js"></script>
+  <!-- plugins -->
+<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
   
 </body>
 </html>
